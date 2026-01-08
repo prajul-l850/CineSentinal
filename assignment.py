@@ -19,8 +19,8 @@ cap = cv2.VideoCapture(source)
 assert cap.isOpened(), "Error reading video file"
 
 
-#region = [(640, 300), (1400, 300), (1400, 800), (640, 800)]
-region = [(300, 150), (600, 150), (600, 600), (300, 600)]
+region = [(640, 300), (1400, 300), (1400, 800), (640, 800)]
+#region = [(300, 150), (600, 150), (600, 600), (300, 600)]
 
 w, h, fps = (int(cap.get(x)) for x in (cv2.CAP_PROP_FRAME_WIDTH, cv2.CAP_PROP_FRAME_HEIGHT, cv2.CAP_PROP_FPS))
 video_writer = cv2.VideoWriter(

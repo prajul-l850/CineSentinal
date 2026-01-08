@@ -14,3 +14,5 @@ region = [(640, 300), (1400, 300), (1400, 800), (640, 800)]
 
 for phone:
 region = [(300, 150), (600, 150), (600, 600), (300, 600)]
+
+I had to do seperate videos for people and phone, since I couldn't find a source video which met both of these conditions online.
